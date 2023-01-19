@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 // connects to the local mongoose host
-mongoose.connect("mongodb+srv://Fanush:Test123@cluster0.awfs3xl.mongodb.net/todolistDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://Fanush:Mean1234@cluster0.awfs3xl.mongodb.net/todolistDB", {useNewUrlParser: true});
 // creates the schema for the items from the new collection
 const itemsSchema = {
     name: String
